@@ -1,0 +1,16 @@
+.slider-image {
+height: 600px !important;
+object-fit: cover;
+
+}
+.service_icon{
+    font-size: 80px;
+    
+}
+.background1{
+    color:white;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.07'%3E%3Ccircle fill='%231B1A55' cx='50' cy='0' r='50'/%3E%3Cg fill='%232d1c65' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233a1e72' cx='50' cy='100' r='50'/%3E%3Cg fill='%23441f7e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%234d2189' cx='50' cy='200' r='50'/%3E%3Cg fill='%23552293' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235d249d' cx='50' cy='300' r='50'/%3E%3Cg fill='%236325a6' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236a27ae' cx='50' cy='400' r='50'/%3E%3Cg fill='%237028b6' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%237629be' cx='50' cy='500' r='50'/%3E%3Cg fill='%237b2ac6' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23802ccd' cx='50' cy='600' r='50'/%3E%3Cg fill='%23852dd4' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%238a2eda' cx='50' cy='700' r='50'/%3E%3Cg fill='%238f2fe1' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%239330e7' cx='50' cy='800' r='50'/%3E%3Cg fill='%239831ed' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%239c32f3' cx='50' cy='900' r='50'/%3E%3Cg fill='%23a033f9' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23A434FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;}
+    

@@ -1,0 +1,34 @@
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    {{#each slider}}
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{@index}}" class="{{this.class}}" aria-current="true" aria-label="Slide 1"></button>
+    {{/each}}
+    {{!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> --}}
+  </div>
+  <div class="carousel-inner">
+    {{#each slider}}
+    <div class="carousel-item {{this.class}}">
+      <img src="{{this.imageUrl}}" class="d-block w-100 slider-image" alt="...">
+         <div class="carousel-caption d-none d-md-block">
+        <h5>{{this.title}}</h5>
+        <p>{{this.subTitle}}</p>
+      </div>
+    </div>
+    {{/each}}
+    {{!-- <div class="carousel-item">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.NZtfot858OjoU8G0Y5TE9AHaEo&pid=Api&P=0&h=180" class="d-block w-100 slider-image" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.jBHuZN18HssLIsQkh1NAiAHaEo&pid=Api&P=0&h=180" class="d-block w-100 slider-image " alt="...">
+    </div>
+  </div> --}}
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
